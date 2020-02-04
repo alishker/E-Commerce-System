@@ -4,10 +4,12 @@ color: rgb(240, 195, 195);}
 .navbar {
   box-shadow: 2px 2px 5px #eb6f6f;
   opacity: 0.9;
-  background-color: #3292a6;
+  background-color: hsl(310, 100%, 5%);
   margin: 10px;
   margin-top: 0;
   border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 
   ; }
   .navbar .nav-item {
@@ -19,9 +21,10 @@ color: rgb(240, 195, 195);}
     
     
    }
-   li {
-      color: whitesmoke;
+   #navitem{
+     color: whitesmoke;
    }
+   
 
     .fa-shopping-cart{
      float: right;
@@ -36,6 +39,8 @@ color: rgb(240, 195, 195);}
       background: url(../img/bg1.jpg);
       background-size: cover;
       border-radius: 10px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px;
       min-height: 100px;
       padding-top: 10px;
       margin: 10px;
@@ -74,3 +79,17 @@ color: rgb(240, 195, 195);}
   
   
 }
+.carousel-item {
+  height: 450px; }
+
+.carousel-image-1 {
+  background: url("../img/laptop1.jpg");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/lp11.jpg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/lp7.jpg");
+  background-size: cover; }
